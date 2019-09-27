@@ -5,6 +5,10 @@
 //  Created by Givi Pataridze on 26.02.2018.
 //
 
+import Foundation
+#if canImport(FoundationNetworking)
+import FoundationNetworking
+#endif
 import HTTP
 
 extension HTTPHeaders {
