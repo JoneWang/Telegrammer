@@ -7,7 +7,7 @@
 
 import Foundation
 import HTTP
-import Logging_swift
+import Logging
 
 public final class Bot: BotProtocol {
 

@@ -75,7 +75,7 @@ public extension String {
     }
 }
 
-import Logging_swift
+import Logging
 
 public extension String {
     var logMessage: Logger.Message {
