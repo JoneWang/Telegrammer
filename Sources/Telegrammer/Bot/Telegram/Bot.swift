@@ -31,7 +31,7 @@ public final class Bot: BotProtocol {
     /// Bot parameters container
     public let settings: Settings
 
-    let requestWorker: Worker
+    public let requestWorker: Worker
     let boundary: String
 
     public convenience init(token: String) throws {
